@@ -59,23 +59,26 @@ button{
         min-height: 100vh;
         flex-wrap: wrap;
         display: flex;
+        align-items: center;
         justify-content: center;
         gap: 0;
         font-family: 'Lexend Deca', sans-serif;
         background-color: hsl(0, 0%, 95%);
-        margin: 20px;
     }
-    section{
+    main{
+        max-width: 1000px;
+        max-height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        
     }
     p{
-        margin-bottom: 100px;
         line-height: 30px;
-        padding-right: 50px;
+        padding-right: ;
     }
     button{
+        margin-top: 100px;
         width: 175px;
     }
     
